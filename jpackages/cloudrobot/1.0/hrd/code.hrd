@@ -1,4 +1,6 @@
 jp.code.account=jumpscale
-jp.code.repo=jumpscale_lib
-jp.code.type=bitbucket
+jp.code.repo=cloudrobot
 jp.code.branch=
+jp.code.type=git
+jp.code.provider=github
+

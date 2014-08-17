@@ -2,4 +2,12 @@ cloudrobot.robots=@ASK default:'youtrack/incubaid,ms1_iaas,user,ssh,docker' desc
 cloudrobot.services=@ASK default:'mail,xmpp'
 cloudrobot.mail.client.instance=@ASK default:0
 cloudrobot.mail.domain=@ASK descr:'Please provide domain which will be used to send emails from e.g. cloudrobot.vscalers.com'
+cloudrobot.mail.domain.in=@ASK descr:'domain for incoming mail (end of mail addr) e.g. robot.vscalers.com is for mail ariving'
 cloudrobot.osis.connection=@ASK default:main
+cloudrobot.xmpp.login=@ASK
+cloudrobot.xmpp.passwd=@ASK
+
+
+
+
+
