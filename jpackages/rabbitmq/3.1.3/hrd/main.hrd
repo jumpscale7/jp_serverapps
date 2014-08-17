@@ -1,0 +1,21 @@
+jp.domain=serverapps
+jp.name=rabbitmq
+jp.version=3.1.3
+jp.autobuild=0
+
+jp.export=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+jp.supportedplatforms=ubuntu
+
+jp.description=!(../description.wiki)
+
+jp.buildnr=2
+
+jp.taskletschecksum=d9fa26c0000b49581572d92c1eded88d
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=0ad664910a921dc4bc6aa6589d85ae0f
+
+##dependencies
+#jp.dependency.1.name = processmanager
+#jp.dependency.1.domain = jumpscale

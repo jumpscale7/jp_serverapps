@@ -1,0 +1,23 @@
+jp.domain=serverapps
+jp.name=openvpn
+jp.version=2.3
+jp.autobuild=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+jp.supportedplatforms=linux
+jp.description=!(../description.wiki)
+jp.buildnr=6
+
+jp.taskletschecksum=c47345c6b7d89f2e50661dc3acefaa3e
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=b65b9fca1255b8e9511ddc4eb54a9055
+
+jp.export=0
+
+jp.bundles=linux:c74a61ce722f37b879a381430d880cf6
+
+##dependencies
+jp.dependency.1.name = shorewall
+jp.dependency.1.domain = jumpscale
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=

@@ -1,0 +1,37 @@
+jp.domain=serverapps
+jp.name=cloudrobot
+jp.version=1.0
+jp.autobuild=0
+
+jp.export=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+jp.supportedplatforms=generic
+
+jp.description=!(../description.wiki)
+
+jp.buildnr=4
+
+jp.taskletschecksum=db76eac77dee06d325e4e2aa8589f34c
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=0ad664910a921dc4bc6aa6589d85ae0f
+
+##dependencies
+jp.dependency.1.name = libs
+jp.dependency.1.domain = jumpscale
+
+jp.dependency.2.name = gsmtpd
+jp.dependency.2.domain = jumpscale
+
+jp.dependency.3.name = mailclient
+jp.dependency.3.domain = jumpscale
+
+jp.devel=1
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=
+
+jp.debug=1
+jp.dependency.3.minversion=
+jp.dependency.3.maxversion=
+jp.dependency.2.minversion=
+jp.dependency.2.maxversion=

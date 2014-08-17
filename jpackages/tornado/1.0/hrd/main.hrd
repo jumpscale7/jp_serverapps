@@ -1,0 +1,23 @@
+jp.domain=serverapps
+jp.name=tornado
+jp.version=1.0
+jp.autobuild=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+jp.supportedplatforms=generic
+jp.description=!(../description.wiki)
+jp.buildnr=4
+
+jp.taskletschecksum=0521b77f778db2c35eb689c30bcba921
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=301dd7b92ead059959c6ae8389123fc6
+
+jp.export=0
+
+jp.bundles=generic:fefcce5041ab7e16e78d8d58dab2bc0d
+
+##dependencies
+#jp.dependency.1.name = processmanager
+#jp.dependency.1.domain = jumpscale
+#jp.dependency.1.minversion= 1
+#jp.dependency.1.maxversion= 2

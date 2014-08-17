@@ -1,0 +1,30 @@
+jp.domain=serverapps
+jp.name=vfw
+jp.version=1.0
+jp.autobuild=0
+
+jp.export=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+jp.supportedplatforms=linux64
+
+jp.description=!(../description.wiki)
+
+jp.buildnr=4
+
+jp.taskletschecksum=2b417486ba28e2456232b008226dd13c
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=0ad664910a921dc4bc6aa6589d85ae0f
+
+##dependencies
+jp.dependency.1.name = grid_portal
+jp.dependency.1.domain = jumpscale
+
+jp.dependency.2.name = agentcontroller
+jp.dependency.2.domain = jumpscale
+
+
+jp.dependency.2.minversion=
+jp.dependency.2.maxversion=
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=

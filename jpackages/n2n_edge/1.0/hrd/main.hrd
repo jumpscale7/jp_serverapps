@@ -1,0 +1,21 @@
+jp.domain=serverapps
+jp.name=n2n_edge
+jp.version=1.0
+jp.autobuild=0
+
+jp.export=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+jp.supportedplatforms=ubuntu64
+
+jp.description=!(../description.wiki)
+
+jp.buildnr=10
+
+jp.taskletschecksum=078cfd9fcd2c27dfb7cc6c19b00c10a7
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=903dedf1dcd9cf265cf49254d359af59
+
+##dependencies
+#jp.dependency.1.name = processmanager
+#jp.dependency.1.domain = jumpscale
