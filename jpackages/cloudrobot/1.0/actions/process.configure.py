@@ -105,8 +105,8 @@ def main(j,jp):
             stopcmd=None,\
             check=True,\
             timeoutcheck=20,\
-            isJSapp=1,\
+            isJSapp=0,\
             upstart=False,\
             stats=True,\
-            processfilterstr="filerobot.py")#what to look for when doing ps ax to find the process
+            processfilterstr="python xmpprobot.py")#what to look for when doing ps ax to find the process
         pd.start()
