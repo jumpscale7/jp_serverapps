@@ -12,13 +12,4 @@ def main(j,jp):
     #configuration is not done in this step !!!!!
     #preparation like system preps like ubuntu deb installs also not done here
     
-    j.dirs.replaceFilesDirVars("$base/apps/rabbitmq/sbin")
-    j.dirs.replaceFilesDirVars("$base/cfg/rabbitmq")
-    
-
-    j.system.fs.createDir("$base/cfg/rabbitmq")
-    j.system.fs.createDir("$base/var/log/rabbitmq")
-    j.system.fs.createDir("$base/var/rabbitmq")
-    j.system.fs.createDir("$base/cfg/rabbitmq/enabled_plugins")
-
-
+    pass
