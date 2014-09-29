@@ -1,24 +1,31 @@
 def main(j,jp):
    
+#     cmd="""
+# [ -e /usr/lib/apt/methods/https ] || {
+#   apt-get update
+#   apt-get install apt-transport-https
+# }
+
+# sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 36A1D7869245C8950F966E92D8576A8BA88D21E9
+# sh -c "echo deb https://get.docker.io/ubuntu docker main /etc/apt/sources.list.d/docker.list"
+
+# """
+
     cmd="""
-[ -e /usr/lib/apt/methods/https ] || {
-  apt-get update
-  apt-get install apt-transport-https
-}
+sh -c "echo deb https://get.docker.io/ubuntu docker main > /etc/apt/sources.list.d/docker.list"
+apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys
+    """
 
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 36A1D7869245C8950F966E92D8576A8BA88D21E9
-sh -c "echo deb https://get.docker.io/ubuntu docker main /etc/apt/sources.list.d/docker.list"
+    j.system.process.executeWithoutPipe(cmd)
 
-"""
-    j.system.process.execute(cmd)
+    print "update apt"
+    j.system.process.executeWithoutPipe("apt-get update -y")
 
-    j.system.process.execute("apt-get update -y")
-
+    print "install lxc docker"
     j.system.platform.ubuntu.install("lxc-docker")
 
-
     
-    j.system.process.execute("pip install docker-py")
+    j.system.process.executeWithoutPipe("pip install docker-py")
 
-    j.system.process.execute("sudo service docker start")
+    j.system.process.executeWithoutPipe("sudo service docker restart")
     

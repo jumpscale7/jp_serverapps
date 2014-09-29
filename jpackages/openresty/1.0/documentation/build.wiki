@@ -1,0 +1,32 @@
+
+{{code:
+cd /tmp
+
+#from 13 july 2014
+wget http://openresty.org/download/ngx_openresty-1.7.2.1.tar.gz
+
+tar xzvf ngx_openresty-1.7.2.1.tar.gz
+cd ngx_openresty-1.7.2.1/
+
+apt-get install libreadline-dev libncurses5-dev libpcre3-dev libssl-dev perl make libpq-dev libgeoip-dev
+./configure --prefix=/opt/openresty \
+            --with-luajit
+            --with-pcre-jit \
+            --with-ipv6 \
+            --without-http_redis2_module \
+            --with-http_iconv_module \
+            --with-http_postgres_module \
+            --with-http_geoip_module  \
+            --with-http_sub_module \
+            --with-http_dav_module \
+            --with-http_auth_request_module \
+            --with-http_stub_status_module \
+            -j2 
+
+make
+make install
+
+}}
+
+
+            --with-lua51=/opt/lua51/ \
