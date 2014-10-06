@@ -12,9 +12,9 @@ jp.description=!(../description.wiki)
 
 jp.buildnr=1
 
-jp.taskletschecksum=
-jp.descrchecksum=
-jp.hrdchecksum=
+jp.taskletschecksum=8661ce434d38633c63c791051fae4c5d
+jp.descrchecksum=d0991c46e66a82684f6b325d1583e582
+jp.hrdchecksum=0ad664910a921dc4bc6aa6589d85ae0f
 
 ##dependencies
 #jp.dependency.1.name = processmanager

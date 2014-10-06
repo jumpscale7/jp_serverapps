@@ -1,16 +1,4 @@
-b09f6d2839405ed1d688be3fd469a9ab
-6bf7dfcafec308317fd872014001ac48|apps/cloudrobot/__init__.py
-ddb0a0c88e51276ae194d0d5abaf3842|apps/cloudrobot/example_curl_call.sh
-35f4e9d40a3027af4d83c0dcea17d0bf|apps/cloudrobot/example_message.txt
-069a95ef8c87616d8ae38d05123bafcc|apps/cloudrobot/filerobot.py
-17bc2e4bf493eb14ba897500df945b0c|apps/cloudrobot/httprobot.py
-ce52ef8c4022d6ce4c939179b0b0f170|apps/cloudrobot/jailTest.py
-6c8403b7dcadb1607d6f867b1b8b01c1|apps/cloudrobot/mailrobot.py
-31c41c6da649cdc5cc9fee4f9b26decc|apps/cloudrobot/robots.py
-e5b2b085989554307fcd756d8be73db3|apps/cloudrobot/templates/default.tmpl
-5993c599058d1fa24d0fc4a4de8f47b8|apps/cloudrobot/templates/trac.tmpl
-110d41f5a5287527330487a987a04e21|apps/cloudrobot/testrobot.py
-143c6c5f361d2139d799f80e3097e552|apps/cloudrobot/xmpprobot.py
+d2d07e3a3ab5f861c8d49f1431266962
 97bacdbf58257a56e935bf63623b0b26|apps/osis/logic/robot/OSIS_auth.py
 cccaaf0eeb58dafbc420a3ff3fcab024|apps/osis/logic/robot/OSIS_category_template.py
 6aab7844939ef54ad696fa27f5c141d3|apps/osis/logic/robot/OSIS_parent.py
