@@ -19,13 +19,12 @@ apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys
     j.system.process.executeWithoutPipe(cmd)
 
     print "update apt"
-    j.system.process.executeWithoutPipe("apt-get update -y")
+    j.system.process.executeWithoutPipe("apt-get update -y",dieOnNonZeroExitCode=False)
 
     print "install lxc docker"
     j.system.platform.ubuntu.install("lxc-docker")
-
     
-    j.system.process.executeWithoutPipe("pip install docker-py")
+    # j.system.process.executeWithoutPipe("pip install docker-py")
 
     j.system.process.executeWithoutPipe("sudo service docker restart")
     
