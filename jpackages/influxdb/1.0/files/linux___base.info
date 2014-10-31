@@ -1,4 +1,4 @@
-f0f755deca0ee54bbf88d5a7065b5469
+9ae89cfd2b66c50967829941c3a4ff69
 9860a70743553c8483c293f572d8c052|apps/influxdb/admin/fonts/font-mfizz.eot
 b4177c558e0592a6ba0600169bcc0329|apps/influxdb/admin/fonts/font-mfizz.svg
 c22a1b2472a96543e96052100e136e29|apps/influxdb/admin/fonts/font-mfizz.ttf
@@ -25,8 +25,8 @@ ae48bbbe42d6b6e55511a84e24b4bc82|apps/influxdb/admin/stylesheets/highlighting.cs
 05dc7e56cdebfde74326e222b2bd8d63|apps/influxdb/admin/stylesheets/magnific-popup.css
 f7173aa0866930251841c66d2148704c|apps/influxdb/admin/stylesheets/modal-help.css
 2eb2b9233df4c3f2b33e865142ace213|apps/influxdb/admin/stylesheets/normalize.css
-062e7c5a25b4e042edbbbc88ad662e29|apps/influxdb/influxdb
-72603e5af72120764d9addf31581a663|apps/influxdb/influxdb-benchmark
-905fed7d6f3477808a22d1d860f9e056|apps/influxdb/scripts/influxdb-daemon.sh
-b398409c15b2ebb51dd2ed4c1690dfaa|apps/influxdb/scripts/init.sh
-840313110e868e81a846299ffea1eef5|apps/influxdb/scripts/post_install.sh
+c634f83aa3f8672ea90d759546fab463|apps/influxdb/influxdb
+deaf63bc0315649070b91709bb85431f|apps/influxdb/influxdb-benchmark
+04aa1884bb11068002bcce9f668430a4|apps/influxdb/scripts/influxdb-daemon.sh
+f5f5112e0436e87a88ed9dc7c21b421e|apps/influxdb/scripts/init.sh
+6602837e2e0727b57111ed2d3f038b46|apps/influxdb/scripts/post_install.sh

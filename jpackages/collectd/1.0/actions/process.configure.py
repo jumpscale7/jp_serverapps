@@ -5,9 +5,9 @@ def main(j,jp):
     # jp.log("set autostart $(jp.name)")
 
     # #example start osis
-    cmd = 'collectd -f'
+    cmd = 'cd /opt/collectd;sh start.sh'
     args = ''
-    workingdir = "/tmp"
+    workingdir = ""
     name = jp.name
     domain = "serverapps"
     ports = []
@@ -21,12 +21,12 @@ def main(j,jp):
         arg+="%s,"%device
     arg=arg.rstrip(",")
 
-    cmd="killall hddtemp;hddtemp -d -F %s"%arg
+    cmd="killall hddtemp;cd /opt/collectd/bin;./hddtemp -d -f /opt/collectd/cfg/hddtemp.db -F %s"%arg
     args = ''
     workingdir = "/tmp"
     name = "hddtemp"
     domain = "serverapps"
-    ports = []
+    ports = [7634]
     j.tools.startupmanager.addProcess(name=name, cmd=cmd, args=args, env={}, numprocesses=1, priority=50, \
-       shell=False, workingdir=workingdir,jpackage=jp,domain=domain,ports=ports)
-    
+       shell=False, workingdir=workingdir,jpackage=jp,domain=domain,ports=ports,processfilterstr="./hddtemp -d",isJSapp=0)
+    # 

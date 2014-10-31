@@ -1,13 +1,16 @@
 def main(j,jp):
    
-
-    j.system.platform.ubuntu.install("collectd")
-       
     do=j.system.installtools
 
-    do.execute("/etc/init.d/collectd stop")
+    do.execute("/etc/init.d/collectd stop",dieOnNonZeroExitCode=False)
+    do.execute("sudo service collectd stop",dieOnNonZeroExitCode=False)
+    j.system.platform.ubuntu.remove("collectd")
 
-    j.system.fs.remove("/etc/init.d/collectd")
+    do.execute("apt-get autoremove -y",dieOnNonZeroExitCode=False)    
+
+    j.system.fs.removeDirTree("/etc/init.d/collectd")
+    j.system.fs.removeDirTree("/etc/collectd")
+    j.system.fs.removeDirTree("/var/lib/collectd")
 
     
     pass
