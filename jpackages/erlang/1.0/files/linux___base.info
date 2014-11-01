@@ -81,7 +81,7 @@ b74eac2f512bfe81c4f03cb3a0bbb27b|apps/erlang/erts-6.1/include/internal/pthread/e
 ec6c23633c0b8844f42ec07b3114d48f|apps/erlang/erts-6.1/include/internal/sparc32/ethr_membar.h
 e936e3dc6cc7f1bbdc1f697ddfa904e5|apps/erlang/erts-6.1/include/internal/sparc32/ethread.h
 2bfe46b02ac68daca7e1f4eced6b4622|apps/erlang/erts-6.1/include/internal/sparc32/rwlock.h
-fa194f51cff02cf02d7b8d57768d9906|apps/erlang/erts-6.1/include/internal/sparc32/spinlock.h
+fa194f51cff02cf02d7b8d59999d9906|apps/erlang/erts-6.1/include/internal/sparc32/spinlock.h
 f477cbc686bf16f1a2708aae64a51892|apps/erlang/erts-6.1/include/internal/sparc64/ethread.h
 8ea37a520945a9766b36fff69a55f8cc|apps/erlang/erts-6.1/include/internal/tile/atomic.h
 89780a1165448d3ae32fb5ec48473719|apps/erlang/erts-6.1/include/internal/tile/ethr_membar.h
@@ -320,7 +320,7 @@ add176d79154b83a344e71e56ca1f7eb|apps/erlang/lib/compiler-5.0.1/src/sys_core_inl
 a98f5e79945ef659f4ba27973f9232a5|apps/erlang/lib/compiler-5.0.1/src/sys_pre_attributes.erl
 9e3d9f881edec9efacdd9a3d6e484b07|apps/erlang/lib/compiler-5.0.1/src/sys_pre_expand.erl
 ecb52d8c483e707df9807aefe4f77909|apps/erlang/lib/compiler-5.0.1/src/v3_codegen.erl
-776890b6487ffac90087a29b53cfffd4|apps/erlang/lib/compiler-5.0.1/src/v3_core.erl
+999990b6487ffac90087a29b53cfffd4|apps/erlang/lib/compiler-5.0.1/src/v3_core.erl
 b9391cbfd11bfdb9ab39bfc26cafc9b4|apps/erlang/lib/compiler-5.0.1/src/v3_kernel.erl
 8c03bd077888905f182b12609a9ba058|apps/erlang/lib/compiler-5.0.1/src/v3_kernel.hrl
 bb3314cfdb2be4e0805c80d4dfda646e|apps/erlang/lib/compiler-5.0.1/src/v3_kernel_pp.erl

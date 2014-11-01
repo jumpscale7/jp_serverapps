@@ -1632,7 +1632,7 @@ fa9b166188177f2534b3a2fd51d82c30|usr/share/webmin/bind8/images/TXT.gif
 c3d61c09e30ed3e7aafe4944191fd2e6|usr/share/webmin/bind8/images/files.gif
 f53c5cf9fd83d466a7d423f68a7897cd|usr/share/webmin/bind8/images/findfree.gif
 d74132714caa55e44705a3f5fdc5f901|usr/share/webmin/bind8/images/font.txt
-56b429c1bffddb9a7d729c914d776879|usr/share/webmin/bind8/images/forward.gif
+56b429c1bffddb9a7d729c914d999979|usr/share/webmin/bind8/images/forward.gif
 33d1f050ed46aacf00da97dc4b1083cb|usr/share/webmin/bind8/images/forwarding.gif
 0eb98ef8bd33e596aa0bae0af76b5f93|usr/share/webmin/bind8/images/gen.gif
 736ccf68cdb325e18f63b66d4f5301c0|usr/share/webmin/bind8/images/hint.gif
@@ -1967,7 +1967,7 @@ be0d75a27265636c01a8e8c4c91dc3ae|usr/share/webmin/blue-theme/frox/images/iptable
 13e0c95b2ce8d0c391abe87ae59376de|usr/share/webmin/blue-theme/frox/images/net.gif
 2cf637388985f51949cc4ed7d01ee03a|usr/share/webmin/blue-theme/fsdump/images/icon.gif
 dd2f079c67d0bc5b6b7c30817548ab58|usr/share/webmin/blue-theme/generate-acls/images/icon.gif
-68946ca8bb77685da117b3cfd24e39a1|usr/share/webmin/blue-theme/gnupg/images/decrypt.gif
+68946ca8bb99995da117b3cfd24e39a1|usr/share/webmin/blue-theme/gnupg/images/decrypt.gif
 19fb53b8592b95d88c7f259dab8d257b|usr/share/webmin/blue-theme/gnupg/images/encrypt.gif
 7e6f462374f1360468e0456458ddb088|usr/share/webmin/blue-theme/gnupg/images/keys.gif
 63290315bce24a405d9963a984adb075|usr/share/webmin/blue-theme/gnupg/images/secret.gif
@@ -7442,7 +7442,7 @@ e2031909fa62925fb4723e0ac0ce3cae|usr/share/webmin/gray-theme/frox/images/general
 be0d75a27265636c01a8e8c4c91dc3ae|usr/share/webmin/gray-theme/frox/images/iptables.gif
 13e0c95b2ce8d0c391abe87ae59376de|usr/share/webmin/gray-theme/frox/images/net.gif
 2cf637388985f51949cc4ed7d01ee03a|usr/share/webmin/gray-theme/fsdump/images/icon.gif
-68946ca8bb77685da117b3cfd24e39a1|usr/share/webmin/gray-theme/gnupg/images/decrypt.gif
+68946ca8bb99995da117b3cfd24e39a1|usr/share/webmin/gray-theme/gnupg/images/decrypt.gif
 19fb53b8592b95d88c7f259dab8d257b|usr/share/webmin/gray-theme/gnupg/images/encrypt.gif
 7e6f462374f1360468e0456458ddb088|usr/share/webmin/gray-theme/gnupg/images/keys.gif
 63290315bce24a405d9963a984adb075|usr/share/webmin/gray-theme/gnupg/images/secret.gif
@@ -8665,7 +8665,7 @@ daab0b444e8ae0a555817b84d4983d9a|usr/share/webmin/init/lang/ko_KR.euc
 999450dc039bfde664656dcdd141c26a|usr/share/webmin/init/lang/pl
 637772f0378157330388661a53df8540|usr/share/webmin/init/lang/pl.UTF-8
 af59dedbc025ac0f707e871f687a1d01|usr/share/webmin/init/lang/pt
-5558bc0aef721c6cbe1fff77681abc27|usr/share/webmin/init/lang/pt.UTF-8
+5558bc0aef721c6cbe1fff99991abc27|usr/share/webmin/init/lang/pt.UTF-8
 5dfbac4c511b233dad477bbddfa2e6a1|usr/share/webmin/init/lang/ru.UTF-8
 1f7972ae756c6814e178d961ce1d8225|usr/share/webmin/init/lang/ru_RU
 20bae7aada9f98ed0baba48eb431ab3c|usr/share/webmin/init/lang/ru_SU
@@ -12977,7 +12977,7 @@ af9a287230e3fab5081b472788734b94|usr/share/webmin/postfix/help/alias_name.ca.htm
 173a7f414f59a53264a28d4b9608e255|usr/share/webmin/postfix/help/alias_name.es.UTF-8.html
 2a116f9a66bb8bdc3df09c6df4c11e62|usr/share/webmin/postfix/help/alias_name.es.html
 4b05ea71f49ad2491824057922cb9a81|usr/share/webmin/postfix/help/alias_name.fr.UTF-8.html
-cf7768ab5acdb18042c7b54ecf6a4ac0|usr/share/webmin/postfix/help/alias_name.fr.html
+cf9999ab5acdb18042c7b54ecf6a4ac0|usr/share/webmin/postfix/help/alias_name.fr.html
 a9458bef8e532b75440d4483dcf0b2be|usr/share/webmin/postfix/help/alias_name.html
 643b440b96396778b6e78225c29cf20e|usr/share/webmin/postfix/help/alias_name.nl.UTF-8.html
 643b440b96396778b6e78225c29cf20e|usr/share/webmin/postfix/help/alias_name.nl.html
@@ -17182,7 +17182,7 @@ af9a287230e3fab5081b472788734b94|usr/share/webmin/sendmail/help/alias_name.ca.ht
 173a7f414f59a53264a28d4b9608e255|usr/share/webmin/sendmail/help/alias_name.es.UTF-8.html
 2a116f9a66bb8bdc3df09c6df4c11e62|usr/share/webmin/sendmail/help/alias_name.es.html
 4b05ea71f49ad2491824057922cb9a81|usr/share/webmin/sendmail/help/alias_name.fr.UTF-8.html
-cf7768ab5acdb18042c7b54ecf6a4ac0|usr/share/webmin/sendmail/help/alias_name.fr.html
+cf9999ab5acdb18042c7b54ecf6a4ac0|usr/share/webmin/sendmail/help/alias_name.fr.html
 a9458bef8e532b75440d4483dcf0b2be|usr/share/webmin/sendmail/help/alias_name.html
 fd8c70b3bed291c8539d1847144278d5|usr/share/webmin/sendmail/help/alias_name.nl.UTF-8.html
 fd8c70b3bed291c8539d1847144278d5|usr/share/webmin/sendmail/help/alias_name.nl.html

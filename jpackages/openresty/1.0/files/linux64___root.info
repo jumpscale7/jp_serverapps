@@ -35,7 +35,7 @@ efbaf7ad074712699215040b7a834b4e|openresty/lualib/ledis/openresty-redis_license
 635815ae6021b71427170021f12468ab|openresty/lualib/rds/parser.so
 6ccb103d3748aea50f7bb9ac4a03537a|openresty/lualib/redis/parser.so
 d5a1df1fd64745df207556d69b5fcf75|openresty/lualib/resty/aes.lua
-0e705a57e7257d2366152a2001b77689|openresty/lualib/resty/core.lua
+0e705a57e7257d2366152a2001b99999|openresty/lualib/resty/core.lua
 02991d531bc89d7739e2438cc1205621|openresty/lualib/resty/core/base.lua
 c0e2cd00e86ebfe7a3ef1a466703c4ac|openresty/lualib/resty/core/base64.lua
 0c336585acffabc9bbb120c24c832952|openresty/lualib/resty/core/ctx.lua
